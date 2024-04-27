@@ -1,0 +1,67 @@
+*,
+*:before,
+*:after{
+    padding:10px;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-image: linear-gradient(to right,black,rgb(0, 58, 135));
+}
+.container{
+    background-color:rgb(206, 255, 215);
+    width:50%;
+    min-width:500px;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    padding-bottom:50px;
+    border-radius:6%;
+    box-shadow: 0 0 20px rgba(249, 255, 240, 0.426);
+}
+.time{
+    position:relative;
+    width:80%;
+    background:#eae7ff;
+    left:9%;
+    font-family:'Roboto mono',monospace;
+    color:rgb(3, 3, 82);
+    font-size:30px;
+    padding:45px;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    border-radius:5px;
+    box-shadow: 0 0 30px rgba(10, 9, 9, 0.821);
+}
+.button{
+    width:80%;
+    margin:60px auto 0 auto;
+    display:flex;
+    justify-content:space-around;
+}
+.button button{
+    width:120px;
+    height:50px;
+    background-color:rgb(96, 96, 255);
+    color:#ffffff;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border:none;
+    font-size:18px;
+    border-radius:10px;
+    cursor:pointer;
+    outline:none;
+}
+.button button:nth-last-child(2){
+    background-color: red;
+}
+.button button:nth-last-child(1){
+    background-color: rgba(236, 209, 3, 0.879);
+}
+.button button:hover{
+    color:rgb(1, 11, 74);
+    font-weight: 500;
+    box-shadow:0 10px 50px rgb(0, 2, 135);
+}
